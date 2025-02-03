@@ -1,0 +1,6 @@
+@IceSMS.API_HostAddress = http://localhost:5012
+
+GET {{IceSMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

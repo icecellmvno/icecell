@@ -1,0 +1,268 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/app-layout-5cc24047.7a8csaxlu9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-5cc24047.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7a8csaxlu9"},{"Name":"integrity","Value":"sha256-7wivPhAKAuovY\u002BgJaoCXbXp5aC8\u002BQbMOHA0fcOVzHmw="},{"Name":"label","Value":"_content/IceSMS.API/assets/app-layout-5cc24047.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"118972"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227wivPhAKAuovY\u002BgJaoCXbXp5aC8\u002BQbMOHA0fcOVzHmw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/app-layout-5cc24047.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-5cc24047.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7wivPhAKAuovY\u002BgJaoCXbXp5aC8\u002BQbMOHA0fcOVzHmw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"118972"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00227wivPhAKAuovY\u002BgJaoCXbXp5aC8\u002BQbMOHA0fcOVzHmw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/blacklist-415d9348.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-415d9348.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NAzkGgd0M1jqy9eOASHTYrX0bvgYZMM7vgQ7Qzv6R78="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2909"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NAzkGgd0M1jqy9eOASHTYrX0bvgYZMM7vgQ7Qzv6R78=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/blacklist-415d9348.ohhd2qjtb9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-415d9348.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ohhd2qjtb9"},{"Name":"integrity","Value":"sha256-NAzkGgd0M1jqy9eOASHTYrX0bvgYZMM7vgQ7Qzv6R78="},{"Name":"label","Value":"_content/IceSMS.API/assets/blacklist-415d9348.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2909"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NAzkGgd0M1jqy9eOASHTYrX0bvgYZMM7vgQ7Qzv6R78=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/BulkAddSheet-e26ac79a.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-e26ac79a.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aSVS\u002BeJrL7z3Zgs6yQTMjQfVBPj8AoL/4Kr3sEM9B24="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"341396"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aSVS\u002BeJrL7z3Zgs6yQTMjQfVBPj8AoL/4Kr3sEM9B24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/BulkAddSheet-e26ac79a.rb729sj6cn.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-e26ac79a.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rb729sj6cn"},{"Name":"integrity","Value":"sha256-aSVS\u002BeJrL7z3Zgs6yQTMjQfVBPj8AoL/4Kr3sEM9B24="},{"Name":"label","Value":"_content/IceSMS.API/assets/BulkAddSheet-e26ac79a.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"341396"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022aSVS\u002BeJrL7z3Zgs6yQTMjQfVBPj8AoL/4Kr3sEM9B24=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/campaingreports-dd11354f.gocqi6ivcc.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-dd11354f.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gocqi6ivcc"},{"Name":"integrity","Value":"sha256-UDPLLWexFtvM4A02/5MoKwtUSziA4ZGuy7xmrGVMFNI="},{"Name":"label","Value":"_content/IceSMS.API/assets/campaingreports-dd11354f.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"137"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UDPLLWexFtvM4A02/5MoKwtUSziA4ZGuy7xmrGVMFNI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/campaingreports-dd11354f.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-dd11354f.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UDPLLWexFtvM4A02/5MoKwtUSziA4ZGuy7xmrGVMFNI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"137"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022UDPLLWexFtvM4A02/5MoKwtUSziA4ZGuy7xmrGVMFNI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/card-013b0d69.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-013b0d69.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vcswP9sRTCV/p/d015CfelbaDgalcxhxdnAy0OIcbv8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1011"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vcswP9sRTCV/p/d015CfelbaDgalcxhxdnAy0OIcbv8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/card-013b0d69.ptpsunc49k.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-013b0d69.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ptpsunc49k"},{"Name":"integrity","Value":"sha256-vcswP9sRTCV/p/d015CfelbaDgalcxhxdnAy0OIcbv8="},{"Name":"label","Value":"_content/IceSMS.API/assets/card-013b0d69.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1011"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022vcswP9sRTCV/p/d015CfelbaDgalcxhxdnAy0OIcbv8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/contacts-891ba29d.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-891ba29d.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w/bjZ3\u002BVRiA8dUJa6JY8La66XQqGmCs17kqNozfZl5I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"133"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022w/bjZ3\u002BVRiA8dUJa6JY8La66XQqGmCs17kqNozfZl5I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/contacts-891ba29d.rimzqwodlh.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-891ba29d.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rimzqwodlh"},{"Name":"integrity","Value":"sha256-w/bjZ3\u002BVRiA8dUJa6JY8La66XQqGmCs17kqNozfZl5I="},{"Name":"label","Value":"_content/IceSMS.API/assets/contacts-891ba29d.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"133"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022w/bjZ3\u002BVRiA8dUJa6JY8La66XQqGmCs17kqNozfZl5I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/createLucideIcon-997a9794.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-997a9794.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KBfVfAKqkPIyXFvGq4gcZbXgpfS47/Hd7b2kI0tK2iw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1575"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KBfVfAKqkPIyXFvGq4gcZbXgpfS47/Hd7b2kI0tK2iw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/createLucideIcon-997a9794.o8fsj2yaa3.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-997a9794.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o8fsj2yaa3"},{"Name":"integrity","Value":"sha256-KBfVfAKqkPIyXFvGq4gcZbXgpfS47/Hd7b2kI0tK2iw="},{"Name":"label","Value":"_content/IceSMS.API/assets/createLucideIcon-997a9794.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1575"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022KBfVfAKqkPIyXFvGq4gcZbXgpfS47/Hd7b2kI0tK2iw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/dashboard-cf43e728.iuv6cpp572.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-cf43e728.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iuv6cpp572"},{"Name":"integrity","Value":"sha256-ukYhjMe4fB0comK2LC3Qa137Ow12Gg5IeSY3MB83ZWI="},{"Name":"label","Value":"_content/IceSMS.API/assets/dashboard-cf43e728.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"414"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ukYhjMe4fB0comK2LC3Qa137Ow12Gg5IeSY3MB83ZWI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/dashboard-cf43e728.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-cf43e728.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ukYhjMe4fB0comK2LC3Qa137Ow12Gg5IeSY3MB83ZWI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"414"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ukYhjMe4fB0comK2LC3Qa137Ow12Gg5IeSY3MB83ZWI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/data-table-pagination-86d11b05.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-86d11b05.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RKyyZLWhFwdHswbNORPY63DHup4yfMqodxjERFu616I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"89809"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022RKyyZLWhFwdHswbNORPY63DHup4yfMqodxjERFu616I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/data-table-pagination-86d11b05.smdpfbex2g.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-86d11b05.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"smdpfbex2g"},{"Name":"integrity","Value":"sha256-RKyyZLWhFwdHswbNORPY63DHup4yfMqodxjERFu616I="},{"Name":"label","Value":"_content/IceSMS.API/assets/data-table-pagination-86d11b05.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89809"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022RKyyZLWhFwdHswbNORPY63DHup4yfMqodxjERFu616I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/index-dc4320a6.5yzkhkt5t9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-dc4320a6.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5yzkhkt5t9"},{"Name":"integrity","Value":"sha256-A3wrikschE6DScxeKFKDRiqvBDGK7UN7KQlqOTzKN/E="},{"Name":"label","Value":"_content/IceSMS.API/assets/index-dc4320a6.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240411"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022A3wrikschE6DScxeKFKDRiqvBDGK7UN7KQlqOTzKN/E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/index-dc4320a6.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-dc4320a6.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-A3wrikschE6DScxeKFKDRiqvBDGK7UN7KQlqOTzKN/E="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"240411"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022A3wrikschE6DScxeKFKDRiqvBDGK7UN7KQlqOTzKN/E=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/index-f40effba.4mfk5087a3.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-f40effba.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4mfk5087a3"},{"Name":"integrity","Value":"sha256-9A7/uuA/ZyqfXFrOy8xbtxktsUjfOYJnMSxza1cuxjw="},{"Name":"label","Value":"_content/IceSMS.API/assets/index-f40effba.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44910"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229A7/uuA/ZyqfXFrOy8xbtxktsUjfOYJnMSxza1cuxjw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/index-f40effba.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-f40effba.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9A7/uuA/ZyqfXFrOy8xbtxktsUjfOYJnMSxza1cuxjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"44910"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229A7/uuA/ZyqfXFrOy8xbtxktsUjfOYJnMSxza1cuxjw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/input-ed7a3b68.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-ed7a3b68.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4iHi48OOnCA/xOdJnyW\u002Bx\u002BZbTmQ2NhziFF/76vw8fS0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4498"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224iHi48OOnCA/xOdJnyW\u002Bx\u002BZbTmQ2NhziFF/76vw8fS0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/input-ed7a3b68.mfbwg8fgy9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-ed7a3b68.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mfbwg8fgy9"},{"Name":"integrity","Value":"sha256-4iHi48OOnCA/xOdJnyW\u002Bx\u002BZbTmQ2NhziFF/76vw8fS0="},{"Name":"label","Value":"_content/IceSMS.API/assets/input-ed7a3b68.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4498"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00224iHi48OOnCA/xOdJnyW\u002Bx\u002BZbTmQ2NhziFF/76vw8fS0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/label-17b9044c.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-17b9044c.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Td/72UEWOeX\u002B2tpJP6BkfEWQfQ0PhLMJ9olSm9ea7Vo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"619"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Td/72UEWOeX\u002B2tpJP6BkfEWQfQ0PhLMJ9olSm9ea7Vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/label-17b9044c.vxf8adowi4.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-17b9044c.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vxf8adowi4"},{"Name":"integrity","Value":"sha256-Td/72UEWOeX\u002B2tpJP6BkfEWQfQ0PhLMJ9olSm9ea7Vo="},{"Name":"label","Value":"_content/IceSMS.API/assets/label-17b9044c.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"619"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Td/72UEWOeX\u002B2tpJP6BkfEWQfQ0PhLMJ9olSm9ea7Vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/login-3e5f4763.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-3e5f4763.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JWiQPM/xIYLFW8PrkdDKPm\u002B3EoEi9mhOVx6OzSx13J8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"90337"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JWiQPM/xIYLFW8PrkdDKPm\u002B3EoEi9mhOVx6OzSx13J8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/login-3e5f4763.rk3fcfjuk9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-3e5f4763.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rk3fcfjuk9"},{"Name":"integrity","Value":"sha256-JWiQPM/xIYLFW8PrkdDKPm\u002B3EoEi9mhOVx6OzSx13J8="},{"Name":"label","Value":"_content/IceSMS.API/assets/login-3e5f4763.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"90337"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022JWiQPM/xIYLFW8PrkdDKPm\u002B3EoEi9mhOVx6OzSx13J8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/managmentui-416e7732.4ehm7wea88.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-416e7732.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4ehm7wea88"},{"Name":"integrity","Value":"sha256-jEhxzFuYjDIpQi3I7Rlke1lhDvJJSYdGq3wqr4jWumM="},{"Name":"label","Value":"_content/IceSMS.API/assets/managmentui-416e7732.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10192"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jEhxzFuYjDIpQi3I7Rlke1lhDvJJSYdGq3wqr4jWumM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/managmentui-416e7732.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-416e7732.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jEhxzFuYjDIpQi3I7Rlke1lhDvJJSYdGq3wqr4jWumM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10192"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022jEhxzFuYjDIpQi3I7Rlke1lhDvJJSYdGq3wqr4jWumM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/sendlogs-4b8253e7.7lp0k75ug1.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-4b8253e7.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7lp0k75ug1"},{"Name":"integrity","Value":"sha256-dZ45m9VuPdrwDvTJGkb/9lukDtfvcXuobofqXtUb4P4="},{"Name":"label","Value":"_content/IceSMS.API/assets/sendlogs-4b8253e7.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"139"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dZ45m9VuPdrwDvTJGkb/9lukDtfvcXuobofqXtUb4P4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/sendlogs-4b8253e7.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-4b8253e7.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dZ45m9VuPdrwDvTJGkb/9lukDtfvcXuobofqXtUb4P4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"139"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022dZ45m9VuPdrwDvTJGkb/9lukDtfvcXuobofqXtUb4P4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/sendsms-a79bcd0d.j0gq9nzkrs.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-a79bcd0d.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j0gq9nzkrs"},{"Name":"integrity","Value":"sha256-bZd6sAG0NvOerFhe0jwf\u002BkAYR3HxOX4eTa4\u002BLq7n0jE="},{"Name":"label","Value":"_content/IceSMS.API/assets/sendsms-a79bcd0d.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"322"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bZd6sAG0NvOerFhe0jwf\u002BkAYR3HxOX4eTa4\u002BLq7n0jE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/sendsms-a79bcd0d.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-a79bcd0d.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bZd6sAG0NvOerFhe0jwf\u002BkAYR3HxOX4eTa4\u002BLq7n0jE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"322"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022bZd6sAG0NvOerFhe0jwf\u002BkAYR3HxOX4eTa4\u002BLq7n0jE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/tags-fc182e83.immy0qiq7y.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-fc182e83.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"immy0qiq7y"},{"Name":"integrity","Value":"sha256-9hCCNcuGCxCw3rotv7G6FT\u002Bo\u002BHhkFVpZvS2nVcn03kU="},{"Name":"label","Value":"_content/IceSMS.API/assets/tags-fc182e83.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2909"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229hCCNcuGCxCw3rotv7G6FT\u002Bo\u002BHhkFVpZvS2nVcn03kU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/tags-fc182e83.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-fc182e83.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9hCCNcuGCxCw3rotv7G6FT\u002Bo\u002BHhkFVpZvS2nVcn03kU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2909"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00229hCCNcuGCxCw3rotv7G6FT\u002Bo\u002BHhkFVpZvS2nVcn03kU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/TenantDisabledPage-616ae087.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-616ae087.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o8UPwR6axHV0oQXTdvimL/WqKEsMns5mfGQly9zCWYA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1026"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022o8UPwR6axHV0oQXTdvimL/WqKEsMns5mfGQly9zCWYA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/TenantDisabledPage-616ae087.z437uz7om8.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-616ae087.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z437uz7om8"},{"Name":"integrity","Value":"sha256-o8UPwR6axHV0oQXTdvimL/WqKEsMns5mfGQly9zCWYA="},{"Name":"label","Value":"_content/IceSMS.API/assets/TenantDisabledPage-616ae087.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1026"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022o8UPwR6axHV0oQXTdvimL/WqKEsMns5mfGQly9zCWYA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/utils-b13f04d9.4sj7h6ooi2.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\utils-b13f04d9.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4sj7h6ooi2"},{"Name":"integrity","Value":"sha256-5GhSKwKy3e4q/dH4YF2yR19J5427NgE7TPTtV2AtexM="},{"Name":"label","Value":"_content/IceSMS.API/assets/utils-b13f04d9.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225GhSKwKy3e4q/dH4YF2yR19J5427NgE7TPTtV2AtexM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/assets/utils-b13f04d9.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\utils-b13f04d9.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5GhSKwKy3e4q/dH4YF2yR19J5427NgE7TPTtV2AtexM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"20602"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225GhSKwKy3e4q/dH4YF2yR19J5427NgE7TPTtV2AtexM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/favicon.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RD9p1uU7xxzJU0TMGM7MkNH21iXkug9QnW2MwuXsoT8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"99"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022RD9p1uU7xxzJU0TMGM7MkNH21iXkug9QnW2MwuXsoT8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/favicon.wb1szig569.svg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.svg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wb1szig569"},{"Name":"integrity","Value":"sha256-RD9p1uU7xxzJU0TMGM7MkNH21iXkug9QnW2MwuXsoT8="},{"Name":"label","Value":"_content/IceSMS.API/favicon.svg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99"},{"Name":"Content-Type","Value":"image/svg\u002Bxml"},{"Name":"ETag","Value":"\u0022RD9p1uU7xxzJU0TMGM7MkNH21iXkug9QnW2MwuXsoT8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/index.ap4gy742kk.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ap4gy742kk"},{"Name":"integrity","Value":"sha256-MuaVxZVVUKKGPh7i39lxYFbk5lReKuV\u002BAOMn2RklTjw="},{"Name":"label","Value":"_content/IceSMS.API/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022MuaVxZVVUKKGPh7i39lxYFbk5lReKuV\u002BAOMn2RklTjw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IceSMS.API/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MuaVxZVVUKKGPh7i39lxYFbk5lReKuV\u002BAOMn2RklTjw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"517"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022MuaVxZVVUKKGPh7i39lxYFbk5lReKuV\u002BAOMn2RklTjw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 01:48:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

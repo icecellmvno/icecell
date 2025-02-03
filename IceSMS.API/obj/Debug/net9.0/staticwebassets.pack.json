@@ -1,0 +1,113 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/BulkAddSheet-e26ac79a.js",
+      "PackagePath": "staticwebassets/assets/BulkAddSheet-e26ac79a.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/TenantDisabledPage-616ae087.js",
+      "PackagePath": "staticwebassets/assets/TenantDisabledPage-616ae087.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/app-layout-5cc24047.js",
+      "PackagePath": "staticwebassets/assets/app-layout-5cc24047.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/blacklist-415d9348.js",
+      "PackagePath": "staticwebassets/assets/blacklist-415d9348.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/campaingreports-dd11354f.js",
+      "PackagePath": "staticwebassets/assets/campaingreports-dd11354f.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/card-013b0d69.js",
+      "PackagePath": "staticwebassets/assets/card-013b0d69.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/contacts-891ba29d.js",
+      "PackagePath": "staticwebassets/assets/contacts-891ba29d.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/createLucideIcon-997a9794.js",
+      "PackagePath": "staticwebassets/assets/createLucideIcon-997a9794.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/dashboard-cf43e728.js",
+      "PackagePath": "staticwebassets/assets/dashboard-cf43e728.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/data-table-pagination-86d11b05.js",
+      "PackagePath": "staticwebassets/assets/data-table-pagination-86d11b05.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/index-dc4320a6.js",
+      "PackagePath": "staticwebassets/assets/index-dc4320a6.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/index-f40effba.css",
+      "PackagePath": "staticwebassets/assets/index-f40effba.css"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/input-ed7a3b68.js",
+      "PackagePath": "staticwebassets/assets/input-ed7a3b68.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/label-17b9044c.js",
+      "PackagePath": "staticwebassets/assets/label-17b9044c.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/login-3e5f4763.js",
+      "PackagePath": "staticwebassets/assets/login-3e5f4763.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/managmentui-416e7732.js",
+      "PackagePath": "staticwebassets/assets/managmentui-416e7732.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/sendlogs-4b8253e7.js",
+      "PackagePath": "staticwebassets/assets/sendlogs-4b8253e7.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/sendsms-a79bcd0d.js",
+      "PackagePath": "staticwebassets/assets/sendsms-a79bcd0d.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/tags-fc182e83.js",
+      "PackagePath": "staticwebassets/assets/tags-fc182e83.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/assets/utils-b13f04d9.js",
+      "PackagePath": "staticwebassets/assets/utils-b13f04d9.js"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/favicon.svg",
+      "PackagePath": "staticwebassets/favicon.svg"
+    },
+    {
+      "Id": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.IceSMS.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.IceSMS.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.IceSMS.API.props",
+      "PackagePath": "build\\IceSMS.API.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.IceSMS.API.props",
+      "PackagePath": "buildMultiTargeting\\IceSMS.API.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.IceSMS.API.props",
+      "PackagePath": "buildTransitive\\IceSMS.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
