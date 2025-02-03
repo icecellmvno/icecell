@@ -392,4 +392,9 @@ public class AuthService : IAuthService
         var hashBytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(input));
         return Convert.ToBase64String(hashBytes);
     }
+
+    public async Task<bool> ValidatePasswordAsync(string password)
+    {
+        return await Task.FromResult(true);
+    }
 } 

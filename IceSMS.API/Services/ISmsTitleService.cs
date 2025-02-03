@@ -7,6 +7,7 @@ public interface ISmsTitleService
 {
     Task<List<SmsTitlesModel>> GetSmsTitlesAsync(int tenantId);
     Task<SmsTitlesModel> AddSmsTitleAsync(int tenantId,CreateSmsTitleRequest smsTitlesModel);
-    Task<SmsTitlesModel> DeleteSmsTitleAsync(int tenantId, int id);
-    
+    Task<SmsTitlesModel?> DeleteSmsTitleAsync(int tenantId, int id);
+    Task<bool> DeleteAsync(int id);
+    Task<IEnumerable<SmsTitlesModel>> GetAllAsync();
 }

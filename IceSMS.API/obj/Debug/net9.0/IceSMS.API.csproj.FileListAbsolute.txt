@@ -338,3 +338,4 @@
 /Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/obj/Debug/net9.0/IceSMS.API.csproj.Up2Date
 /Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/obj/Debug/net9.0/IceSMS.API.genruntimeconfig.cache
 /Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/obj/Debug/net9.0/ref/IceSMS.API.dll
+/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/obj/Debug/net9.0/IceSMS.API.sourcelink.json

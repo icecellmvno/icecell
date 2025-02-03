@@ -18,9 +18,14 @@ public class VendorsService : IVendorsService
         return await _context.Vendors.ToListAsync();
     }
 
-    public async Task<Vendors> GetVendorByIdAsync(int id)
+    public async Task<Vendors?> GetVendorByIdAsync(int id)
     {
         return await _context.Vendors.FindAsync(id);
+    }
+
+    public async Task<Vendors?> GetByNameAsync(string name)
+    {
+        return await _context.Vendors.FirstOrDefaultAsync(v => v.Name == name);
     }
 
     public async Task<Vendors> CreateVendorAsync(Vendors vendor)
@@ -31,7 +36,7 @@ public class VendorsService : IVendorsService
         return vendor;
     }
 
-    public async Task<Vendors> UpdateVendorAsync(int id, Vendors vendor)
+    public async Task<Vendors?> UpdateVendorAsync(int id, Vendors vendor)
     {
         var existingVendor = await _context.Vendors.FindAsync(id);
         if (existingVendor == null) return null;

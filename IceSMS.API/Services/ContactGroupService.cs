@@ -260,4 +260,29 @@ public class ContactGroupService : IContactGroupService
         serializer.Serialize(memoryStream, contacts);
         return memoryStream.ToArray();
     }
+
+    public async Task<bool> ValidateGroupAsync(int groupId)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateGroupsAsync(List<int> groupIds)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateGroupNameAsync(string groupName)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateGroupNamesAsync(List<string> groupNames)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateGroupFileAsync(string filePath)
+    {
+        return await Task.FromResult(true);
+    }
 } 

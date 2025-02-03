@@ -19,10 +19,10 @@ public class SmsTitleSettings : BaseController
     }
 
     [HttpGet]
-    public async Task<ActionResult<List<SmsTitlesModel>>> GetSmsTitles()
+    public async Task<IActionResult> GetSmsTitles()
     {
-        var smstitles = await _smsTitleService.GetSmsTitlesAsync(TenantId);
-        return Ok(smstitles);
+        var titles = await _smsTitleService.GetAllAsync();
+        return Ok(titles);
     }
 
     [HttpPost]
@@ -30,8 +30,8 @@ public class SmsTitleSettings : BaseController
     {
         try
         {
-            var create = _smsTitleService.AddSmsTitleAsync(TenantId, createSmsTitleRequest);
-            return CreatedAtAction(nameof(GetSmsTitles), create);
+            var createdTitle = await _smsTitleService.AddSmsTitleAsync(TenantId, createSmsTitleRequest);
+            return CreatedAtAction(nameof(GetSmsTitles), createdTitle);
         }
         catch (InvalidOperationException e)
         {
@@ -45,13 +45,15 @@ public class SmsTitleSettings : BaseController
         try
         {
             var title = await _smsTitleService.DeleteSmsTitleAsync(TenantId, id);
-            return title;
+            if (title == null)
+            {
+                return NotFound();
+            }
+            return Ok(title);
         }
         catch (InvalidOperationException e)
         {
-          return BadRequest(e.Message);
+            return BadRequest(e.Message);
         }
-
-        
     }
 }

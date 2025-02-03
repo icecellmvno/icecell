@@ -5,8 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace IceSMS.API.Services;
 
-public class SmsTitleService:ISmsTitleService
-    
+public class SmsTitleService : ISmsTitleService
 {
     private readonly ApplicationDbContext _context;
 
@@ -14,35 +13,49 @@ public class SmsTitleService:ISmsTitleService
     {
         _context = context;
     }
+
     public async Task<List<SmsTitlesModel>> GetSmsTitlesAsync(int tenantId)
     {
-        var titles = await _context.SmsTitles.Where(s => s.TenantId == tenantId).ToListAsync();
-        return titles;
+        return await _context.SmsTitles.Where(s => s.TenantId == tenantId).ToListAsync();
     }
 
-    public async Task<SmsTitlesModel> AddSmsTitleAsync(int tenantId,CreateSmsTitleRequest smsTitleRequest)
+    public async Task<SmsTitlesModel> AddSmsTitleAsync(int tenantId, CreateSmsTitleRequest smsTitleRequest)
     {
-        var Smstitle = new SmsTitlesModel
+        var smsTitle = new SmsTitlesModel
         {
             TenantId = tenantId,
             SMSTitle = smsTitleRequest.SMSTitle,
             CreatedAt = DateTime.Now,
-            TitleType = smsTitleRequest.TitleType,
-            
-            
-
+            TitleType = smsTitleRequest.TitleType
         };
-        _context.SmsTitles.Add(Smstitle);
-        _context.SaveChanges();
-        return Smstitle;
+        
+        await _context.SmsTitles.AddAsync(smsTitle);
+        await _context.SaveChangesAsync();
+        return smsTitle;
     }
 
-    public async Task<SmsTitlesModel> DeleteSmsTitleAsync(int tenantId, int id)
+    public async Task<bool> DeleteAsync(int id)
     {
-       var smstitle = _context.SmsTitles.SingleOrDefault(s => s.Id == id && s.TenantId == tenantId);
-       _context.SmsTitles.Remove(smstitle);
-       _context.SaveChanges();
-       return smstitle;
-       
+        var title = await _context.SmsTitles.FindAsync(id);
+        if (title == null) return false;
+
+        _context.SmsTitles.Remove(title);
+        await _context.SaveChangesAsync();
+        return true;
+    }
+
+    public async Task<SmsTitlesModel?> DeleteSmsTitleAsync(int tenantId, int id)
+    {
+        var title = await _context.SmsTitles.FirstOrDefaultAsync(s => s.Id == id && s.TenantId == tenantId);
+        if (title == null) return null;
+
+        _context.SmsTitles.Remove(title);
+        await _context.SaveChangesAsync();
+        return title;
+    }
+
+    public async Task<IEnumerable<SmsTitlesModel>> GetAllAsync()
+    {
+        return await _context.SmsTitles.ToListAsync();
     }
 }

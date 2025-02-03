@@ -7,7 +7,7 @@ public class CreateSmsTitleRequest
 {
     [Required(ErrorMessage = "Title is required")]
     [StringLength(11)]
-    public string SMSTitle { get; set; }
+    public required string SMSTitle { get; set; }
 
     [Required(ErrorMessage = "Titletype is required")]
     public SmsTitleType TitleType { get; set; }

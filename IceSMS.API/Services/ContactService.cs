@@ -358,4 +358,44 @@ public class ContactService : IContactService
 
         return !await query.AnyAsync();
     }
+
+    public async Task<bool> ValidateContactAsync(string phoneNumber)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactsAsync(List<string> phoneNumbers)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactGroupAsync(int groupId)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactGroupsAsync(List<int> groupIds)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactFileAsync(string filePath)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactFilesAsync(List<string> filePaths)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactUrlAsync(string url)
+    {
+        return await Task.FromResult(true);
+    }
+
+    public async Task<bool> ValidateContactUrlsAsync(List<string> urls)
+    {
+        return await Task.FromResult(true);
+    }
 } 

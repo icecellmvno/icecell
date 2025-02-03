@@ -18,7 +18,7 @@ public class VendorsActionParametersService : IVendorsActionParametersService
         return await _context.VendorsActionParameters.ToListAsync();
     }
 
-    public async Task<VendorsActionParameters> GetByIdAsync(int id)
+    public async Task<VendorsActionParameters?> GetByIdAsync(int id)
     {
         return await _context.VendorsActionParameters.FindAsync(id);
     }
@@ -37,18 +37,17 @@ public class VendorsActionParametersService : IVendorsActionParametersService
         return parameters;
     }
 
-    public async Task<VendorsActionParameters> UpdateAsync(int id, VendorsActionParameters parameters)
+    public async Task<VendorsActionParameters?> UpdateAsync(int id, VendorsActionParameters parameters)
     {
-        var existing = await _context.VendorsActionParameters.FindAsync(id);
-        if (existing == null) return null;
+        var existingParameters = await _context.VendorsActionParameters.FindAsync(id);
+        if (existingParameters == null) return null;
 
-        existing.Action = parameters.Action;
-        existing.Template = parameters.Template;
-        existing.Method = parameters.Method;
-        existing.VendorConnectionParamtersId = parameters.VendorConnectionParamtersId;
+        existingParameters.Action = parameters.Action;
+        existingParameters.Template = parameters.Template;
+        existingParameters.Method = parameters.Method;
 
         await _context.SaveChangesAsync();
-        return existing;
+        return existingParameters;
     }
 
     public async Task<bool> DeleteAsync(int id)

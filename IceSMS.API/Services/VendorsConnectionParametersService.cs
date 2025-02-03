@@ -18,7 +18,7 @@ public class VendorsConnectionParametersService : IVendorsConnectionParametersSe
         return await _context.VendorsConnectionParameters.ToListAsync();
     }
 
-    public async Task<VendorsConnectionParameters> GetByIdAsync(int id)
+    public async Task<VendorsConnectionParameters?> GetByIdAsync(int id)
     {
         return await _context.VendorsConnectionParameters.FindAsync(id);
     }
@@ -38,18 +38,18 @@ public class VendorsConnectionParametersService : IVendorsConnectionParametersSe
         return parameters;
     }
 
-    public async Task<VendorsConnectionParameters> UpdateAsync(int id, VendorsConnectionParameters parameters)
+    public async Task<VendorsConnectionParameters?> UpdateAsync(int id, VendorsConnectionParameters parameters)
     {
-        var existing = await _context.VendorsConnectionParameters.FindAsync(id);
-        if (existing == null) return null;
+        var existingParameters = await _context.VendorsConnectionParameters.FindAsync(id);
+        if (existingParameters == null) return null;
 
-        existing.Username = parameters.Username;
-        existing.Password = parameters.Password;
-        existing.Port = parameters.Port;
-        existing.IsActive = parameters.IsActive;
+        existingParameters.Username = parameters.Username;
+        existingParameters.Password = parameters.Password;
+        existingParameters.Port = parameters.Port;
+        existingParameters.IsActive = parameters.IsActive;
 
         await _context.SaveChangesAsync();
-        return existing;
+        return existingParameters;
     }
 
     public async Task<bool> DeleteAsync(int id)
