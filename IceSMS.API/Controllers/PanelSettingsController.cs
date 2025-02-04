@@ -80,4 +80,15 @@ public class PanelSettingsController : BaseController
 
         return NoContent();
     }
+    [AllowAnonymous]
+    [HttpGet("tenant")]
+
+    public async Task<ActionResult<Tenant>> GetTenantByDomain(string domain)
+    {
+        var tenant = await _context.Tenants.FirstOrDefaultAsync(t => t.Domain == domain&& t.IsActive==true);
+        if (tenant == null)
+            return NotFound();
+
+        return Ok(tenant);
+    }
 } 

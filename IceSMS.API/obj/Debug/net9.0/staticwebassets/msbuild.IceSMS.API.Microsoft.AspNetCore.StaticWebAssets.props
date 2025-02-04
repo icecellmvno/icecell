@@ -1,184 +1,184 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-5cc24047.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-8dd816f9.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/app-layout-5cc24047.js</RelativePath>
+      <RelativePath>assets/app-layout-8dd816f9.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7a8csaxlu9</Fingerprint>
-      <Integrity>7wivPhAKAuovY+gJaoCXbXp5aC8+QbMOHA0fcOVzHmw=</Integrity>
+      <Fingerprint>sbbx5zf7qs</Fingerprint>
+      <Integrity>mPj7M5/0+EhM1PkAzyfmvHfluwBFM2wANOb4OpoObt0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-5cc24047.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\app-layout-8dd816f9.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-415d9348.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-7d6b54af.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/blacklist-415d9348.js</RelativePath>
+      <RelativePath>assets/blacklist-7d6b54af.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ohhd2qjtb9</Fingerprint>
-      <Integrity>NAzkGgd0M1jqy9eOASHTYrX0bvgYZMM7vgQ7Qzv6R78=</Integrity>
+      <Fingerprint>b0t3f91nkg</Fingerprint>
+      <Integrity>m7jNe4bKt/Rys7XCc5OD2p8FD6zP9eR4G+swrwGwylQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-415d9348.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\blacklist-7d6b54af.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-e26ac79a.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-242893a7.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/BulkAddSheet-e26ac79a.js</RelativePath>
+      <RelativePath>assets/BulkAddSheet-242893a7.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rb729sj6cn</Fingerprint>
-      <Integrity>aSVS+eJrL7z3Zgs6yQTMjQfVBPj8AoL/4Kr3sEM9B24=</Integrity>
+      <Fingerprint>prgzpkio6a</Fingerprint>
+      <Integrity>Wxd+OsXqFoDn0bO20i5aXaqarIB66eDq2xUdmVxqAZc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-e26ac79a.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\BulkAddSheet-242893a7.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-dd11354f.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-7874452e.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/campaingreports-dd11354f.js</RelativePath>
+      <RelativePath>assets/campaingreports-7874452e.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gocqi6ivcc</Fingerprint>
-      <Integrity>UDPLLWexFtvM4A02/5MoKwtUSziA4ZGuy7xmrGVMFNI=</Integrity>
+      <Fingerprint>ilqnqr82md</Fingerprint>
+      <Integrity>Zox5vZC9Gf5yMGvIQ5nHbgz81+o15enTHvparJGpego=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-dd11354f.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\campaingreports-7874452e.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-013b0d69.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-13fd1a38.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/card-013b0d69.js</RelativePath>
+      <RelativePath>assets/card-13fd1a38.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ptpsunc49k</Fingerprint>
-      <Integrity>vcswP9sRTCV/p/d015CfelbaDgalcxhxdnAy0OIcbv8=</Integrity>
+      <Fingerprint>64w81t66kh</Fingerprint>
+      <Integrity>apazwDZP5BOYB/sMgSKVsoASU7G9LfjQ/St+891gBZM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-013b0d69.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\card-13fd1a38.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-891ba29d.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-5ff55eaa.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/contacts-891ba29d.js</RelativePath>
+      <RelativePath>assets/contacts-5ff55eaa.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rimzqwodlh</Fingerprint>
-      <Integrity>w/bjZ3+VRiA8dUJa6JY8La66XQqGmCs17kqNozfZl5I=</Integrity>
+      <Fingerprint>5l1zy6jitm</Fingerprint>
+      <Integrity>ydwDhccW/sk149mBqGv34Qaoo+DL4LGEYBQpOiFc0RE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-891ba29d.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\contacts-5ff55eaa.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-997a9794.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-f7cc7ef2.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/createLucideIcon-997a9794.js</RelativePath>
+      <RelativePath>assets/createLucideIcon-f7cc7ef2.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>o8fsj2yaa3</Fingerprint>
-      <Integrity>KBfVfAKqkPIyXFvGq4gcZbXgpfS47/Hd7b2kI0tK2iw=</Integrity>
+      <Fingerprint>sx4kukiijs</Fingerprint>
+      <Integrity>AFxpBPEeIHio3OiSDP2N/h5l+5jDGz/4PhnsDEd703k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-997a9794.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\createLucideIcon-f7cc7ef2.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-cf43e728.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-1b835cde.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/dashboard-cf43e728.js</RelativePath>
+      <RelativePath>assets/dashboard-1b835cde.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iuv6cpp572</Fingerprint>
-      <Integrity>ukYhjMe4fB0comK2LC3Qa137Ow12Gg5IeSY3MB83ZWI=</Integrity>
+      <Fingerprint>sggujmk9e3</Fingerprint>
+      <Integrity>3DlexitfwVksapOm0deaa/Y5HS1bQewEblnGMpTZYIc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-cf43e728.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\dashboard-1b835cde.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-86d11b05.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-799b31a2.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/data-table-pagination-86d11b05.js</RelativePath>
+      <RelativePath>assets/data-table-pagination-799b31a2.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>smdpfbex2g</Fingerprint>
-      <Integrity>RKyyZLWhFwdHswbNORPY63DHup4yfMqodxjERFu616I=</Integrity>
+      <Fingerprint>911kgisvog</Fingerprint>
+      <Integrity>w6XwyvJkxUj0C8V+eywG42ETaTVTf2j1fA8tcS5211Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-86d11b05.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\data-table-pagination-799b31a2.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-dc4320a6.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-5b7c4c61.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/index-dc4320a6.js</RelativePath>
+      <RelativePath>assets/index-5b7c4c61.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5yzkhkt5t9</Fingerprint>
-      <Integrity>A3wrikschE6DScxeKFKDRiqvBDGK7UN7KQlqOTzKN/E=</Integrity>
+      <Fingerprint>vzxt5m9kpf</Fingerprint>
+      <Integrity>peHWi5iypp2qe2SqDTI1Su0wzQKS4cXlEuDwr0JJzTY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-dc4320a6.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-5b7c4c61.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-f40effba.css'))">
       <SourceType>Package</SourceType>
@@ -198,149 +198,149 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\index-f40effba.css'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-ed7a3b68.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-4e9b3450.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/input-ed7a3b68.js</RelativePath>
+      <RelativePath>assets/input-4e9b3450.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mfbwg8fgy9</Fingerprint>
-      <Integrity>4iHi48OOnCA/xOdJnyW+x+ZbTmQ2NhziFF/76vw8fS0=</Integrity>
+      <Fingerprint>3waz23799k</Fingerprint>
+      <Integrity>4/8uiZRTn+ZBJaUZeQ9dKIY+BBu8AXxbpr4k+d5eY2s=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-ed7a3b68.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\input-4e9b3450.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-17b9044c.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-0833b6ea.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/label-17b9044c.js</RelativePath>
+      <RelativePath>assets/label-0833b6ea.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vxf8adowi4</Fingerprint>
-      <Integrity>Td/72UEWOeX+2tpJP6BkfEWQfQ0PhLMJ9olSm9ea7Vo=</Integrity>
+      <Fingerprint>jf6v54l5c4</Fingerprint>
+      <Integrity>sYi/wtHuk3jTwqfh5LKs5YTDhOdFNrUarpqdb5dT0aw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-17b9044c.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\label-0833b6ea.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-3e5f4763.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-2887f75a.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/login-3e5f4763.js</RelativePath>
+      <RelativePath>assets/login-2887f75a.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rk3fcfjuk9</Fingerprint>
-      <Integrity>JWiQPM/xIYLFW8PrkdDKPm+3EoEi9mhOVx6OzSx13J8=</Integrity>
+      <Fingerprint>bewyxw5sp1</Fingerprint>
+      <Integrity>fZZtHj5a2NfKWbh65/9qxl8WyXGlWPO4qoSYS23MNmE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-3e5f4763.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\login-2887f75a.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-416e7732.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-832c8ad7.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/managmentui-416e7732.js</RelativePath>
+      <RelativePath>assets/managmentui-832c8ad7.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4ehm7wea88</Fingerprint>
-      <Integrity>jEhxzFuYjDIpQi3I7Rlke1lhDvJJSYdGq3wqr4jWumM=</Integrity>
+      <Fingerprint>8gr8s3ob9h</Fingerprint>
+      <Integrity>CPtoogsMqqusZW1wDd1O/My2b+5NKmVo1UOFCU6hr8c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-416e7732.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\managmentui-832c8ad7.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-4b8253e7.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-85e49ee5.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/sendlogs-4b8253e7.js</RelativePath>
+      <RelativePath>assets/sendlogs-85e49ee5.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7lp0k75ug1</Fingerprint>
-      <Integrity>dZ45m9VuPdrwDvTJGkb/9lukDtfvcXuobofqXtUb4P4=</Integrity>
+      <Fingerprint>4zuq6dkl0s</Fingerprint>
+      <Integrity>ULnPD3W3KasTcUu0TcztcjYDw8CWhCMPtJQ9eU811Qs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-4b8253e7.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendlogs-85e49ee5.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-a79bcd0d.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-3edfbe53.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/sendsms-a79bcd0d.js</RelativePath>
+      <RelativePath>assets/sendsms-3edfbe53.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j0gq9nzkrs</Fingerprint>
-      <Integrity>bZd6sAG0NvOerFhe0jwf+kAYR3HxOX4eTa4+Lq7n0jE=</Integrity>
+      <Fingerprint>dmrfszlvto</Fingerprint>
+      <Integrity>lVEQrGnSIBEInS1QfTksOuX1rsZk7HwItGmuihdGyPM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-a79bcd0d.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\sendsms-3edfbe53.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-fc182e83.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-4a776852.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/tags-fc182e83.js</RelativePath>
+      <RelativePath>assets/tags-4a776852.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>immy0qiq7y</Fingerprint>
-      <Integrity>9hCCNcuGCxCw3rotv7G6FT+o+HhkFVpZvS2nVcn03kU=</Integrity>
+      <Fingerprint>xwvpyvlrvr</Fingerprint>
+      <Integrity>0bsLLEAj83ZJgtnNmWqSZtOHBpSbOK8AHvMnZKFHjuw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-fc182e83.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\tags-4a776852.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-616ae087.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-eddcddb3.js'))">
       <SourceType>Package</SourceType>
       <SourceId>IceSMS.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/IceSMS.API</BasePath>
-      <RelativePath>assets/TenantDisabledPage-616ae087.js</RelativePath>
+      <RelativePath>assets/TenantDisabledPage-eddcddb3.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z437uz7om8</Fingerprint>
-      <Integrity>o8UPwR6axHV0oQXTdvimL/WqKEsMns5mfGQly9zCWYA=</Integrity>
+      <Fingerprint>sr0fxeg5x9</Fingerprint>
+      <Integrity>qKp64TlQesR2uG67GWLpaN1ZdYNdjf4Pjo0U6iO+iQg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-616ae087.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\TenantDisabledPage-eddcddb3.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\utils-b13f04d9.js'))">
       <SourceType>Package</SourceType>
@@ -390,8 +390,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ap4gy742kk</Fingerprint>
-      <Integrity>MuaVxZVVUKKGPh7i39lxYFbk5lReKuV+AOMn2RklTjw=</Integrity>
+      <Fingerprint>cunjthifi9</Fingerprint>
+      <Integrity>jP9qwxiXHObJsNXIwiBvCG0mfkl3GC8ZeDHk78TLoWs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

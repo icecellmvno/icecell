@@ -1,5 +1,6 @@
 using System.Net;
 using System.Net.Mail;
+using IceSMS.API.Interfaces;
 
 namespace IceSMS.API.Services;
 

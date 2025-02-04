@@ -21,7 +21,7 @@ export default defineConfig(({ command }) => {
       },
     },
     build: {
-      outDir: '../IceSMS.API/wwwroot',
+      outDir: '../wwwroot',
       emptyOutDir: true,
     },
   }

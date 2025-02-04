@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pKGei+A0lXw=",
+  "dgSpecHash": "NY+ECjDUToI=",
   "success": true,
-  "projectFilePath": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/IceSMS.API.csproj",
+  "projectFilePath": "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj",
   "expectedPackageFiles": [
     "/Users/tarik/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/tarik/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512",

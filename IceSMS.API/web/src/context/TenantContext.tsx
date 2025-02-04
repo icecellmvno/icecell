@@ -20,7 +20,7 @@ export const TenantProvider = ({ children }: { children: React.ReactNode }) => {
   useEffect(() => {
     const fetchTenantData = async () => {
       try {
-        const response = await fetch(`/api/panel/panel?domain=${window.location.hostname}`)
+        const response = await fetch(`/api/v1/PanelSettings/tenant?domain=${window.location.hostname}`)
         
         if (!response.ok) {
           if(response.status === 404) {

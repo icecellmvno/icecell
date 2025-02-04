@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace IceSMS.API.Controllers;
 
-[Authorize]
+
 [ApiController]
 [Route("api/v1/[controller]")]
 public class TenantsController : BaseController

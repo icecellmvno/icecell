@@ -1,4 +1,5 @@
 using IceSMS.API.Data;
+using IceSMS.API.Interfaces;
 using IceSMS.API.Models.Domain;
 using Microsoft.EntityFrameworkCore;
 

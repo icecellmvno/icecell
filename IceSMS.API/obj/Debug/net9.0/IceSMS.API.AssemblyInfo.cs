@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IceSMS.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+900131d74e961e0dae711f88751c95805bbd6d55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bde2690e1ad9405efa5f6d2c5d19de5fc428a24c")]
 [assembly: System.Reflection.AssemblyProductAttribute("IceSMS.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IceSMS.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

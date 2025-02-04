@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using IceSMS.API.Data;
+using IceSMS.API.Interfaces;
 using StackExchange.Redis;
 using IceSMS.API.Services;
 
@@ -114,8 +115,7 @@ var app = builder.Build();
         c.RouteTemplate = "api/v1/docs/{documentname}/swagger.json";
     });
     app.UseSwaggerUI(c =>
-    {
-        c.SwaggerEndpoint("/api/v1/docs/v1/swagger.json", "IceSMS API v1");
+    {        c.SwaggerEndpoint("/api/v1/docs/v1/swagger.json", "IceSMS API v1");
         c.RoutePrefix = "api/v1/docs";
     });
 

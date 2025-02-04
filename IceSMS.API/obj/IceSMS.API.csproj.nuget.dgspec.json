@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/IceSMS.API.csproj": {}
+    "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj": {}
   },
   "projects": {
-    "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/IceSMS.API.csproj": {
+    "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/IceSMS.API.csproj",
+        "projectUniqueName": "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj",
         "projectName": "IceSMS.API",
-        "projectPath": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/IceSMS.API.csproj",
+        "projectPath": "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj",
         "packagesPath": "/Users/tarik/.nuget/packages/",
-        "outputPath": "/Users/tarik/mete/smsmerkezi/icesms/icecell/IceSMS.API/obj/",
+        "outputPath": "/Users/tarik/projects/icecell/IceSMS.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tarik/.nuget/NuGet/NuGet.Config"

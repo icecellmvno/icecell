@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using IceSMS.API.Data;
+using IceSMS.API.Interfaces;
 using IceSMS.API.Models.Domain;
 using IceSMS.API.Models.Auth;
 
