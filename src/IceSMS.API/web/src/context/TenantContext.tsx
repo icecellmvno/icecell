@@ -2,12 +2,24 @@ import { createContext, useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 interface TenantData {
-  domain_name: string
-  favicon: string
-  is_active: boolean
-  logo: string
+
+  id: number
   name: string
+  domain: string
+  description: any
+  isActive: boolean
+  logo: string
   title: string
+  createdAt: string
+  updatedAt: string
+  credit: number
+  parentId: any
+  parent: any
+  children: any[]
+  users: any[]
+  roles: any[]
+
+
   // Diğer alanlar...
 }
 
@@ -31,13 +43,13 @@ export const TenantProvider = ({ children }: { children: React.ReactNode }) => {
 
         const data = await response.json()
         
-        if(!data.is_active) {
+        if(!data.isActive) {
           navigate('/tenantdisabled?reason=disabled')
           return
         }
 
         // DOM'u güncelle
-        document.title = data.title
+        document.title = data.description
         const favicon = document.querySelector('link[rel="icon"]') as HTMLLinkElement
         if(favicon) favicon.href = data.favicon
         

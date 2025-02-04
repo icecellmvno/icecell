@@ -4658,11 +4658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj",
+      "projectUniqueName": "/Users/tarik/projects/icecell/src/IceSMS.API/IceSMS.API.csproj",
       "projectName": "IceSMS.API",
-      "projectPath": "/Users/tarik/projects/icecell/IceSMS.API/IceSMS.API.csproj",
+      "projectPath": "/Users/tarik/projects/icecell/src/IceSMS.API/IceSMS.API.csproj",
       "packagesPath": "/Users/tarik/.nuget/packages/",
-      "outputPath": "/Users/tarik/projects/icecell/IceSMS.API/obj/",
+      "outputPath": "/Users/tarik/projects/icecell/src/IceSMS.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tarik/.nuget/NuGet/NuGet.Config"

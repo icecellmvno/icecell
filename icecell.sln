@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceSMS.API", "IceSMS.API\IceSMS.API.csproj", "{70D93E5B-B414-4D04-A94D-E43A4F65B487}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceSMS.API", "src\IceSMS.API\IceSMS.API.csproj", "{70D93E5B-B414-4D04-A94D-E43A4F65B487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceSMSSeeder", "IceSMSSeeder\IceSMSSeeder.csproj", "{30B26B30-ED8F-45D8-9936-ABA4DC395E9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IceSMSSeeder", "src\IceSMSSeeder\IceSMSSeeder.csproj", "{30B26B30-ED8F-45D8-9936-ABA4DC395E9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

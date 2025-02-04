@@ -5,13 +5,13 @@ import { Suspense } from 'react'
 
 export default function ProtectedRoute() {
   const { user } = useAuth()
-  const { is_active } = useTenant() || {}
+  const { isActive } = useTenant() || {}
 
   if (!user) {
     return <Navigate to="/auth/login" replace />
   }
 
-  if (is_active === false) {
+  if (!isActive) {
     return <Navigate to="/tenantdisabled" replace />
   }
 

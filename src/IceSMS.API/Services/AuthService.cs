@@ -17,7 +17,7 @@ public class AuthService : IAuthService
     private readonly IConfiguration _configuration;
     private readonly ISessionService _sessionService;
     private readonly IEmailService _emailService;
- 
+
     private readonly IGoogleAuthService _googleAuthService;
     private readonly IProfileService _profileService;
 
@@ -26,7 +26,6 @@ public class AuthService : IAuthService
         IConfiguration configuration,
         ISessionService sessionService,
         IEmailService emailService,
-   
         IGoogleAuthService googleAuthService,
         IProfileService profileService)
     {
@@ -34,7 +33,7 @@ public class AuthService : IAuthService
         _configuration = configuration;
         _sessionService = sessionService;
         _emailService = emailService;
-  
+
         _googleAuthService = googleAuthService;
         _profileService = profileService;
     }
@@ -75,7 +74,7 @@ public class AuthService : IAuthService
         var user = await _context.Users
             .Include(u => u.Roles)
             .ThenInclude(r => r.Permissions)
-            .FirstOrDefaultAsync(u => u.Username == request.Username);
+            .FirstOrDefaultAsync(u => u.Username == request.Identity || u.Email == request.Identity);
 
         if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
             throw new InvalidOperationException("Geçersiz kullanıcı adı veya şifre");
@@ -347,6 +346,7 @@ public class AuthService : IAuthService
             new(ClaimTypes.NameIdentifier, user.Id.ToString()),
             new(ClaimTypes.Name, user.Username),
             new(ClaimTypes.Email, user.Email),
+            new(ClaimTypes.Name,user.FirstName + " " + user.LastName),
             new("tenant_id", user.TenantId.ToString())
         };
 
@@ -398,4 +398,4 @@ public class AuthService : IAuthService
     {
         return await Task.FromResult(true);
     }
-} 
+}
