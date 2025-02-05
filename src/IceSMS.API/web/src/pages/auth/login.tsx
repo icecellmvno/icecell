@@ -56,7 +56,11 @@ export default function Login() {
         throw new Error(data.message || 'Giriş başarısız')
       }
 
-      login(data.token)
+      if (!data.accessToken) {
+        throw new Error('Token alınamadı')
+      }
+
+      login(data.accessToken)
       navigate('/')
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Beklenmeyen hata')

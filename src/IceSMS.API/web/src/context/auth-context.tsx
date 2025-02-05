@@ -1,9 +1,13 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 
 type User = {
+  id: string
   name: string
   email: string
   username: string
+  roles: string[]
+  permissions: string[]
+  tenantId: string
 }
 
 type AuthContextType = {
@@ -24,9 +28,24 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
   const decodeToken = (token: string) => {
     try {
-      const payload = token.split('.')[1]
+      if (!token || typeof token !== 'string') {
+        throw new Error('Geçersiz token')
+      }
+
+      const parts = token.split('.')
+      if (parts.length !== 3) {
+        throw new Error('Geçersiz JWT formatı')
+      }
+
+      const payload = parts[1]
       const decoded = atob(payload.replace(/-/g, '+').replace(/_/g, '/'))
-      return JSON.parse(decoded)
+      const parsedData = JSON.parse(decoded)
+
+      if (!parsedData || typeof parsedData !== 'object') {
+        throw new Error('Token içeriği geçersiz')
+      }
+
+      return parsedData
     } catch (error) {
       console.error('Token decode hatası:', error)
       return null
@@ -43,9 +62,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       const authData = decodeToken(token)
       if (authData) {
         setUser({
-          name: authData.name || '',
-          email: authData.email || '',
-          username: authData.username || authData.email?.split('@')[0] || 'kullanici'
+          id: authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier'] || '',
+          name: Array.isArray(authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name']) 
+            ? authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'].join(' ') 
+            : authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name'] || '',
+          email: authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress'] || '',
+          username: authData['http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name']?.[0] || '',
+          roles: Array.isArray(authData['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']) 
+            ? authData['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'] 
+            : [authData['http://schemas.microsoft.com/ws/2008/06/identity/claims/role']],
+          permissions: authData.permission || [],
+          tenantId: authData.tenant_id || ''
         })
       }
     }

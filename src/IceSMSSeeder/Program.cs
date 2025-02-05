@@ -78,6 +78,19 @@ var HostUser = new User
 context.Users.Add(HostUser);
 context.SaveChanges();
 
+// Host User profili oluştur
+var hostProfile = new UserProfile
+{
+    UserId = HostUser.Id,
+    PhoneNumber = "+905555555555",
+    IsPhoneVerified = false,
+    IsSmsVerificationEnabled = false,
+    IsEmailVerificationEnabled = false,
+    IsGoogleAuthEnabled = false
+};
+context.UserProfiles.Add(hostProfile);
+context.SaveChanges();
+
 // Admin rolünü ata
 context.UserRoles.Add(new UserRole { UserId = HostUser.Id, RoleId = adminRole.Id });
 context.SaveChanges();
@@ -109,6 +122,19 @@ var ResellerUser = new User
 context.Users.Add(ResellerUser);
 context.SaveChanges();
 
+// Reseller User profili oluştur
+var resellerProfile = new UserProfile
+{
+    UserId = ResellerUser.Id,
+    PhoneNumber = "+905555555556",
+    IsPhoneVerified = false,
+    IsSmsVerificationEnabled = false,
+    IsEmailVerificationEnabled = false,
+    IsGoogleAuthEnabled = false
+};
+context.UserProfiles.Add(resellerProfile);
+context.SaveChanges();
+
 // Reseller rolünü ata
 context.UserRoles.Add(new UserRole { UserId = ResellerUser.Id, RoleId = resellerRole.Id });
 context.SaveChanges();
@@ -137,6 +163,19 @@ var CustomerUser = new User
     Tenant = CustomerTenant
 };
 context.Users.Add(CustomerUser);
+context.SaveChanges();
+
+// Customer User profili oluştur
+var customerProfile = new UserProfile
+{
+    UserId = CustomerUser.Id,
+    PhoneNumber = "+905555555557",
+    IsPhoneVerified = false,
+    IsSmsVerificationEnabled = false,
+    IsEmailVerificationEnabled = false,
+    IsGoogleAuthEnabled = false
+};
+context.UserProfiles.Add(customerProfile);
 context.SaveChanges();
 
 // Customer rolünü ata

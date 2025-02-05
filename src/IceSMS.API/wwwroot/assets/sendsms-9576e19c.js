@@ -1,1 +1,0 @@
-import{j as r}from"./index-3f9c7a81.js";import{A as t}from"./app-layout-941df3f2.js";import"./input-ea7c55cd.js";import"./utils-b13f04d9.js";import"./createLucideIcon-1f727b5e.js";function a(){return r.jsx(t,{title:"SMS Gönderme Sayfası",children:r.jsx("div",{children:"SMS Gönderme Sayfası"})})}export{a as default};

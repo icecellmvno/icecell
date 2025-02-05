@@ -5,10 +5,12 @@ namespace IceSMS.API.Interfaces;
 
 public interface IBlacklistService
 {
-    Task<List<Blacklist>> GetBlacklistAsync(int tenantId);
+    Task<(List<Blacklist> Blacklist, int TotalCount, int TotalPages)> GetBlacklistAsync(int tenantId, int page, int limit, string? search);
     Task<Blacklist?> GetBlacklistByIdAsync(int id);
-    Task<Blacklist> AddToBlacklistAsync(int tenantId, Blacklist blacklist);
+    Task<Blacklist> AddToBlacklistAsync(Blacklist blacklist);
+    Task<List<Blacklist>> BulkAddToBlacklistAsync(List<Blacklist> blacklists);
     Task<bool> RemoveFromBlacklistAsync(int id);
+    Task<int> BulkRemoveFromBlacklistAsync(List<int> ids);
     Task<bool> IsBlacklistedAsync(int tenantId, string phoneNumber);
     
     // Toplu işlemler
