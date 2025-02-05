@@ -15,6 +15,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<PanelSettings> PanelSettings => Set<PanelSettings>();
     public DbSet<Role> Roles => Set<Role>();
     public DbSet<Permission> Permissions => Set<Permission>();
+    public DbSet<UserRole> UserRoles => Set<UserRole>();
+    public DbSet<RolePermission> RolePermissions => Set<RolePermission>();
     public DbSet<UserProfile> UserProfiles { get; set; } = null!;
     public DbSet<Contact> Contacts => Set<Contact>();
     public DbSet<ContactGroup> ContactGroups => Set<ContactGroup>();
@@ -36,10 +38,14 @@ public class ApplicationDbContext : DbContext
             .WithMany(t => t.Users)
             .HasForeignKey(u => u.TenantId);
 
+        // UserRole composite key
+        modelBuilder.Entity<UserRole>()
+            .HasKey(ur => new { ur.UserId, ur.RoleId });
+
         modelBuilder.Entity<User>()
             .HasMany(u => u.Roles)
             .WithMany(r => r.Users)
-            .UsingEntity(j => j.ToTable("UserRoles"));
+            .UsingEntity<UserRole>();
 
         modelBuilder.Entity<User>()
             .HasOne(u => u.Profile)
@@ -52,10 +58,14 @@ public class ApplicationDbContext : DbContext
             .WithMany(t => t.Roles)
             .HasForeignKey(r => r.TenantId);
 
+        // RolePermission composite key
+        modelBuilder.Entity<RolePermission>()
+            .HasKey(rp => new { rp.RoleId, rp.PermissionId });
+
         modelBuilder.Entity<Role>()
             .HasMany(r => r.Permissions)
             .WithMany(p => p.Roles)
-            .UsingEntity(j => j.ToTable("RolePermissions"));
+            .UsingEntity<RolePermission>();
 
         // Contact
         modelBuilder.Entity<Contact>()
@@ -144,6 +154,7 @@ public class ApplicationDbContext : DbContext
             .WithMany(f => f.Values)
             .HasForeignKey(v => v.CustomFieldId)
             .OnDelete(DeleteBehavior.Cascade);
+
         modelBuilder.Entity<SmsTitlesModel>().HasIndex(s => s.TenantId);
 
         // Vendors ilişkileri
